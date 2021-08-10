@@ -1,2 +1,1 @@
-# rsschool-cv
-My CV for RS School
+https://Ruslan-7E.github.io/rsschool-cv/cv
