@@ -1,13 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>RSSchool-CV</title>
-	<link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-	
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="Ava-VK.jpg" alt="Avatar" class="avatar" />
+        <div class="info-text">
+          <h1>Ruslan Mukhametshin</h1>
+          <p>
+            I'm a beginner Fullstack software engineer from Kashira, Moscow
+            oblast, Russian Federation.
+          </p>
+
+          <h4>Check my social links</h4>
+
+          <a href="https://vk.com/ruslanforever" target="_blank">VK</a>
+          |
+          <a href="https://t.me/R_Shine7" target="_blank">Telegram</a>
+          |
+          <a href="https://github.com/Ruslan-7E" target="_blank">GitHub</a>
+          |
+          <a
+            href="https://kashira.hh.ru/resume/d23877e7ff08afe2190039ed1f33764464586b"
+            target="_blank"
+          >
+            HeadHunter
+          </a>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>My hobbies</h2>
+        <ol class="list">
+          <li>Programming</li>
+          <li>Reading</li>
+          <li>Music</li>
+          <li>Sport: running, swimming, boxing</li>
+          <li>Gaming</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Work experience</h2>
+        <table class="table">
+          <tr>
+            <td>Feidal LLC</td>
+            <td>Deputy Head of Production</td>
+            <td>2018 - 2020</td>
+          </tr>
+          <tr>
+            <td>DPD Rus</td>
+            <td>WMS Operator</td>
+            <td>2020 - until now</td>
+          </tr>
+          <tr>
+            <td>RSSchool</td>
+            <td>JS/Frontend student</td>
+            <td>2020 - until now</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Completed courses</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://htmlacademy.ru/courses"
+              >HTML Academy (interactive courses)</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.udemy.com/course/javascript-beginners-complete-tutorial/"
+              >The Modern Javascript Bootcamp Course</a
+            >
+          </li>
+          <li>
+            <a href="https://www.udemy.com/course/the-modern-python3-bootcamp/"
+              >The Modern Python 3 Bootcamp</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Contact me</h2>
+
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Your name:</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="type your name here..."
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email:</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="type your Email here..."
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="text">Your message:</label>
+            <textarea name="" id="text"></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Send" />
+        </form>
+      </div>
+
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
+
+    <div style="margin-bottom: 500px"></div>
+  </body>
 </html>
